@@ -3,6 +3,7 @@ package org.example
 import org.assertj.core.api.Assertions
 import org.junit.jupiter.api.Test
 
+// Create an object, rather than class to achieve Singleton in Kotlin
 
 object NetworkDriver {
     init {
