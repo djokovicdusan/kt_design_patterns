@@ -23,8 +23,10 @@ class CareTaker {
 class MementoTest {
     @Test
     fun testMemento() {
+
         val originator = Originator("initial state")
         val careTaker = CareTaker()
+
         careTaker.saveState(originator.createMemento())
         println("Current state is ${originator.state}")
 
